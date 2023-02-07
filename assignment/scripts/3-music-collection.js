@@ -22,12 +22,15 @@ function showCollection(array){
     }
 }
 
-function findByArtist(artist){{
+function findByArtist(artist){
     let artistList = []
-    for (i=0; i < collection.length; i++)
-    artistList.push(album.artist[i])
-}  {   return artistList = []
-}
+    for (i=0; i < collection.length; i++) {
+        let album = collection[i]
+        if (album.artist === artist) {
+            artistList.push(album)
+        }
+    }
+  return artistList
 }
 // testing addToCollection function
 
