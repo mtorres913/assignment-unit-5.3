@@ -14,7 +14,14 @@ function addToCollection(title, artist, yearPublished){
     return album
 }
 
-
+// function showCollection(array){
+//     console.log(array.length)
+// // - Loop over the array and console.log each album's information formatted like: `TITLE by ARTIST, published in YEAR`.
+//     for (i=0; i<=array.length;i++){
+//         console.log(array[0],  'by', array[1],  'published in',  array[2])
+//     }
+// }
+// IN WORKK!!!!!
 
 // testing addToCollection function
 
@@ -36,3 +43,7 @@ console.log(addToCollection("The Eminem Show", "Eminem", "2002"))
 console.log(addToCollection("Recovery", "Eminem", "2010"))
 
 console.log(collection)
+
+showCollection(collection)
+
+
